@@ -11,5 +11,10 @@ setInterval(function(){
 	setTimeout(function(){ $(this).click(); }, timeBetweenTwoRequest);
 	console.log('invitation sent'); 
     }); 
+	
+	$('.mn-pymk-list__action-container > .button-secondary-small').each(function(){  
+	setTimeout(function(){ $(this).click(); }, timeBetweenTwoRequest);
+	console.log('invitation sent'); 
+    });
 		
 }, timeToScrollAndLoadNewRequests);
