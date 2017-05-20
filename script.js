@@ -28,12 +28,12 @@ setTimeout(function(){
             console.log('invitation sent'); 
         }); 
 
-        // $('.mn-pymk-list__action-container > .button-secondary-small').each(function(){  
-        //     //setTimeout(function(){ $(this).click(); }, timeBetweenTwoRequest);
-        //     $(this).click();
-        //     //$(this).removeClass('button-secondary-small');
-        //     console.log('invitation sent'); 
-        // });
+         $('.mn-pymk-list__action-container > .button-secondary-small').each(function(){  
+             //setTimeout(function(){ $(this).click(); }, timeBetweenTwoRequest);
+             $(this).click();
+             //$(this).removeClass('button-secondary-small');
+             console.log('invitation sent'); 
+         });
 
     }, timeToScrollAndLoadNewRequests * 5);
     requests = 0;
