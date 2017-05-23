@@ -28,26 +28,13 @@ setTimeout(function(){
             console.log('invitation sent'); 
         }); 
 
-<<<<<<< HEAD
         // UI 2
         $('.mn-pymk-list__action-container > .button-secondary-small').each(function(){  
             //setTimeout(function(){ $(this).click(); }, timeBetweenTwoRequest);
             $(this).click();
             console.log('invitation sent'); 
         });
-=======
-         $('.mn-pymk-list__action-container > .button-secondary-small').each(function(){  
-             //setTimeout(function(){ $(this).click(); }, timeBetweenTwoRequest);
-             $(this).click();
-             //$(this).removeClass('button-secondary-small');
-             console.log('invitation sent'); 
-         });
->>>>>>> 5d32456ded719db84a90a3b4aab8f2dc1a767e65
 
     requests = 0;
-<<<<<<< HEAD
     }, timeToScrollAndLoadNewRequests * 3);
 }, timeToScrollAndLoadNewRequests * 3);
-=======
-}, timeToScrollAndLoadNewRequests * 5);
->>>>>>> 5d32456ded719db84a90a3b4aab8f2dc1a767e65
