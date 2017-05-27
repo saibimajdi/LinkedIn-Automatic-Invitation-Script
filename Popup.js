@@ -22,7 +22,7 @@ function clickEvent(e){
                     console.log('invitation sent');
                     invitationCount++;
                 }
-            }, 5000);
+            }, 4000);
         }, 4000);
                `
     }, function(res){
