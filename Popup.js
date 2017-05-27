@@ -23,7 +23,7 @@ function clickEvent(e){
                     invitationCount++;
                 }
             }, 5000);
-        }, 5000);
+        }, 4000);
                `
     }, function(res){
         console.log(res);
